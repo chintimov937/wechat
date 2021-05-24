@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+		<title>预约展示</title>
+		<link rel="stylesheet" type="text/css" href="__CSS__/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="__CSS__/layout.css"/>
+		<link rel="stylesheet" href="__CSS__/zepto.mdatetimer.css">
+		<script type="text/javascript" src="__JS__/zepto.js"></script>
+		<script src="__JS__/zepto.mdatetimer.js"></script>
+		<style>
+			body,ul,h1,h2,h3{
+				margin: 0;
+				padding: 0;
+			}
+			ul{
+				list-style-type: none;
+			}
+			a{
+				text-decoration: none;
+			}
+			input{
+				width:90%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container" style="position:absolute;top:0;left:0;padding:0; width: 100%;height:100%;background:#EEEEEE">
+			<header>
+				<div class="left"><a href="{:url('index/user/line')}"><span class="glyphicon glyphicon-chevron-left"></a></span></div>
+				<center><div class="title">预约展示</div></center>
+				<div class="save"><a href="{:url('index/user/personal')}"><span class="glyphicon glyphicon-user"></span></a></div>
+			</header>
+			<div class="line-num-zs">
+				<center>
+					<p>当前排队人数：<span class="cur-num">12</span></p>
+				</center>
+			</div>
+			<div class="content">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 info line-info" style="margin-top:14px;">
+						<input type="text" id="picktime" readonly=""/>
+						<img src="__IMG__/date.png"/>
+						<span class="font">日期</span><span class="glyphicon glyphicon-chevron-right"></span>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 info line-info">
+						<a href="address.html">
+							<input type="text" id="yadd" readonly=""/>
+							<img src="__IMG__/adr.png"/>
+							<span class="font">地址</span><span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 info line-info">
+						<input type="text" id="ayw" readonly=""/>
+						<img src="__IMG__/ywlx.png"/>
+						<span class="font">业务类型</span><span class="glyphicon glyphicon-chevron-right"></span>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 download">
+						<center>
+							<p>因营业厅办理业务需要APP支持，未免耽误您的时间，您可以长按下方的二维码，下载APP。</p>
+							<img src="__IMG__/qr-code.png"/>
+						</center>
+					</div>
+					<div class="col-md-10 col-sm-10 col-xs-10 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+						<button type="button" class="btn btn-primary info-btn bnt-qxyy" style="margin-top:1.2rem">取消预约</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap"></div>
+		<div class="qxyy">
+			<center><p>确定取消此预约?</p></center>
+			<button class="ok">确定</button>
+			<button class="cancel">取消</button>
+		</div>
+		<script>
+			$(function(){
+				$("#picktime").val("9月25日");
+				$("#yadd").val("雨花区大数据店");
+				$("#ayw").val("业务类型一");
+				$(".bnt-qxyy").click(function(){
+					$(".wrap,.qxyy").show();
+				})
+				
+				$(".ok").click(function(){
+					window.location.href="{:url('index/user/line')}";
+				});
+				$(".cancel").click(function(){
+					$(".wrap,.qxyy").hide();
+				})
+			});
+			
+		</script>
+	</body>
+</html>

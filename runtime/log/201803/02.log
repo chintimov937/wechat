@@ -1,0 +1,2198 @@
+---------------------------------------------------------------
+[ 2018-03-02T10:13:59+08:00 ] 127.0.0.1 GET /index/user/register
+[ error ] [4]语法错误: unexpected 'index' (T_STRING)
+---------------------------------------------------------------
+[ 2018-03-02T10:13:59+08:00 ] 127.0.0.1 GET /index/user/register
+[ error ] [4]语法错误: unexpected 'index' (T_STRING)
+---------------------------------------------------------------
+[ 2018-03-02T10:14:55+08:00 ] 127.0.0.1 GET /index/user/register
+[ info ] wechat.my/index/user/register [运行时间：0.093352s][吞吐率：10.71req/s] [内存消耗：1,629.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->register[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\register.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'index' (T_STRING)[D:\phpStudy\WWW\wechat\runtime\temp\2d653254b9eede66a1bc95b2a7632d13.php:15]
+---------------------------------------------------------------
+[ 2018-03-02T10:14:55+08:00 ] 127.0.0.1 GET /index/user/register
+[ info ] wechat.my/index/user/register [运行时间：0.030713s][吞吐率：32.56req/s] [内存消耗：1,629.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->register[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\register.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'index' (T_STRING)[D:\phpStudy\WWW\wechat\runtime\temp\2d653254b9eede66a1bc95b2a7632d13.php:15]
+---------------------------------------------------------------
+[ 2018-03-02T10:16:52+08:00 ] 127.0.0.1 GET /index/user/register
+[ info ] wechat.my/index/user/register [运行时间：0.045807s][吞吐率：21.83req/s] [内存消耗：1,784.13kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->register[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\register.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T10:16:52+08:00 ] 127.0.0.1 GET /index/user/register
+[ info ] wechat.my/index/user/register [运行时间：0.028359s][吞吐率：35.26req/s] [内存消耗：1,637.19kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->register[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\register.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T10:16:57+08:00 ] 127.0.0.1 GET /index/user/login.html
+[ info ] wechat.my/index/user/login.html [运行时间：0.045014s][吞吐率：22.22req/s] [内存消耗：1,717.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/register',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T10:17:03+08:00 ] 127.0.0.1 GET /index/user/wjmm.html
+[ info ] wechat.my/index/user/wjmm.html [运行时间：0.027657s][吞吐率：36.16req/s] [内存消耗：1,610.20kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'wjmm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:09:44+08:00 ] 127.0.0.1 GET /index/user/forgetpassword
+[ info ] wechat.my/index/user/forgetpassword [运行时间：0.057820s][吞吐率：17.30req/s] [内存消耗：1,610.85kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'forgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->forgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\phpStudy\WWW\wechat\public/../application/index\view\wwmm.html[D:\phpStudy\WWW\wechat\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-03-02T11:10:08+08:00 ] 127.0.0.1 GET /index/user/forgetpassword
+[ info ] wechat.my/index/user/forgetpassword [运行时间：0.046769s][吞吐率：21.38req/s] [内存消耗：1,719.53kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'forgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->forgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\wjmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:10:08+08:00 ] 127.0.0.1 GET /index/user/css/bootstrap.min.css
+[ info ] wechat.my/index/user/css/bootstrap.min.css [运行时间：0.030674s][吞吐率：32.60req/s] [内存消耗：1,610.30kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://wechat.my/index/user/forgetpassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:10:08+08:00 ] 127.0.0.1 GET /index/user/css/layout.css
+[ info ] wechat.my/index/user/css/layout.css [运行时间：0.033200s][吞吐率：30.12req/s] [内存消耗：1,610.29kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://wechat.my/index/user/forgetpassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:10:08+08:00 ] 127.0.0.1 GET /index/user/js/bootstrap.min.js
+[ info ] wechat.my/index/user/js/bootstrap.min.js [运行时间：0.035133s][吞吐率：28.46req/s] [内存消耗：1,610.23kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => '*/*',
+  'referer' => 'http://wechat.my/index/user/forgetpassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:10:08+08:00 ] 127.0.0.1 GET /index/user/js/main.js
+[ info ] wechat.my/index/user/js/main.js [运行时间：0.035574s][吞吐率：28.11req/s] [内存消耗：1,610.20kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => '*/*',
+  'referer' => 'http://wechat.my/index/user/forgetpassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:10:08+08:00 ] 127.0.0.1 GET /index/user/js/jquery-2.1.4.min.js
+[ info ] wechat.my/index/user/js/jquery-2.1.4.min.js [运行时间：0.038151s][吞吐率：26.21req/s] [内存消耗：1,610.23kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => '*/*',
+  'referer' => 'http://wechat.my/index/user/forgetpassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:10:08+08:00 ] 127.0.0.1 GET /index/user/forgetpassword
+[ info ] wechat.my/index/user/forgetpassword [运行时间：0.026528s][吞吐率：37.70req/s] [内存消耗：1,575.76kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'forgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->forgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\wjmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:10:08+08:00 ] 127.0.0.1 GET /index/user/css/layout.css
+[ info ] wechat.my/index/user/css/layout.css [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,610.29kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://wechat.my/index/user/forgetpassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:10:08+08:00 ] 127.0.0.1 GET /index/user/css/bootstrap.min.css
+[ info ] wechat.my/index/user/css/bootstrap.min.css [运行时间：0.030169s][吞吐率：33.15req/s] [内存消耗：1,610.30kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://wechat.my/index/user/forgetpassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:10:08+08:00 ] 127.0.0.1 GET /index/user/js/bootstrap.min.js
+[ info ] wechat.my/index/user/js/bootstrap.min.js [运行时间：0.029740s][吞吐率：33.62req/s] [内存消耗：1,610.23kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => '*/*',
+  'referer' => 'http://wechat.my/index/user/forgetpassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:10:08+08:00 ] 127.0.0.1 GET /index/user/js/jquery-2.1.4.min.js
+[ info ] wechat.my/index/user/js/jquery-2.1.4.min.js [运行时间：0.030271s][吞吐率：33.03req/s] [内存消耗：1,610.23kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => '*/*',
+  'referer' => 'http://wechat.my/index/user/forgetpassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:10:08+08:00 ] 127.0.0.1 GET /index/user/js/main.js
+[ info ] wechat.my/index/user/js/main.js [运行时间：0.030991s][吞吐率：32.27req/s] [内存消耗：1,610.20kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => '*/*',
+  'referer' => 'http://wechat.my/index/user/forgetpassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:11:20+08:00 ] 127.0.0.1 GET /index/user/forgetpassword
+[ info ] wechat.my/index/user/forgetpassword [运行时间：0.029681s][吞吐率：33.69req/s] [内存消耗：1,781.91kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'forgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->forgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\wjmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:11:20+08:00 ] 127.0.0.1 GET /index/user/forgetpassword
+[ info ] wechat.my/index/user/forgetpassword [运行时间：0.029027s][吞吐率：34.45req/s] [内存消耗：1,637.89kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'forgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->forgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\wjmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:11:25+08:00 ] 127.0.0.1 GET /index/user/login.html
+[ info ] wechat.my/index/user/login.html [运行时间：0.025650s][吞吐率：38.99req/s] [内存消耗：1,575.74kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/forgetpassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:11:26+08:00 ] 127.0.0.1 GET /index/user/wjmm.html
+[ info ] wechat.my/index/user/wjmm.html [运行时间：0.027003s][吞吐率：37.03req/s] [内存消耗：1,610.74kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'wjmm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:15:20+08:00 ] 127.0.0.1 GET /index/user/changepassword
+[ info ] wechat.my/index/user/changepassword [运行时间：0.055152s][吞吐率：18.13req/s] [内存消耗：1,719.13kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'changepassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->changepassword[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\xgmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:15:20+08:00 ] 127.0.0.1 GET /index/user/css/bootstrap.min.css
+[ info ] wechat.my/index/user/css/bootstrap.min.css [运行时间：0.031218s][吞吐率：32.03req/s] [内存消耗：1,610.88kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://wechat.my/index/user/changepassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:15:20+08:00 ] 127.0.0.1 GET /index/user/css/layout.css
+[ info ] wechat.my/index/user/css/layout.css [运行时间：0.035725s][吞吐率：27.99req/s] [内存消耗：1,610.86kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://wechat.my/index/user/changepassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:15:20+08:00 ] 127.0.0.1 GET /index/user/js/bootstrap.min.js
+[ info ] wechat.my/index/user/js/bootstrap.min.js [运行时间：0.033930s][吞吐率：29.47req/s] [内存消耗：1,610.87kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => '*/*',
+  'referer' => 'http://wechat.my/index/user/changepassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:15:20+08:00 ] 127.0.0.1 GET /index/user/js/jquery-2.1.4.min.js
+[ info ] wechat.my/index/user/js/jquery-2.1.4.min.js [运行时间：0.034894s][吞吐率：28.66req/s] [内存消耗：1,610.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => '*/*',
+  'referer' => 'http://wechat.my/index/user/changepassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:15:20+08:00 ] 127.0.0.1 GET /index/user/js/main.js
+[ info ] wechat.my/index/user/js/main.js [运行时间：0.037203s][吞吐率：26.88req/s] [内存消耗：1,610.74kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => '*/*',
+  'referer' => 'http://wechat.my/index/user/changepassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:15:20+08:00 ] 127.0.0.1 GET /index/user/js/bootstrap.min.js
+[ info ] wechat.my/index/user/js/bootstrap.min.js [运行时间：0.027856s][吞吐率：35.90req/s] [内存消耗：1,610.87kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => '*/*',
+  'referer' => 'http://wechat.my/index/user/changepassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:15:20+08:00 ] 127.0.0.1 GET /index/user/js/main.js
+[ info ] wechat.my/index/user/js/main.js [运行时间：0.024274s][吞吐率：41.20req/s] [内存消耗：1,610.74kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => '*/*',
+  'referer' => 'http://wechat.my/index/user/changepassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:17:43+08:00 ] 127.0.0.1 GET /index/user/changepassword
+[ info ] wechat.my/index/user/changepassword [运行时间：0.033640s][吞吐率：29.73req/s] [内存消耗：1,781.78kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'changepassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->changepassword[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\xgmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:17:43+08:00 ] 127.0.0.1 GET /index/user/changepassword
+[ info ] wechat.my/index/user/changepassword [运行时间：0.025738s][吞吐率：38.85req/s] [内存消耗：1,638.53kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'changepassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->changepassword[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\xgmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:17:49+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.025527s][吞吐率：39.17req/s] [内存消耗：1,576.36kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/changepassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:17:53+08:00 ] 127.0.0.1 GET /index/user/index.html
+[ info ] wechat.my/index/user/index.html [运行时间：0.027642s][吞吐率：36.18req/s] [内存消耗：1,611.34kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:22:56+08:00 ] 127.0.0.1 GET /index/user/changetel
+[ info ] wechat.my/index/user/changetel [运行时间：0.031061s][吞吐率：32.19req/s] [内存消耗：1,781.78kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'changetel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->changetel[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\change-tel.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:22:58+08:00 ] 127.0.0.1 POST /
+[ info ] wechat.my/ [运行时间：0.070243s][吞吐率：14.24req/s] [内存消耗：1,301.40kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/user/changetel',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\wechat\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:27:51+08:00 ] 127.0.0.1 GET /index/user/address
+[ info ] wechat.my/index/user/address [运行时间：0.033903s][吞吐率：29.50req/s] [内存消耗：1,611.45kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:28:00+08:00 ] 127.0.0.1 GET /index/appointment/address
+[ info ] wechat.my/index/appointment/address [运行时间：0.029224s][吞吐率：34.22req/s] [内存消耗：1,609.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\phpStudy\WWW\wechat\public/../application/index\view\appointment\address.html[D:\phpStudy\WWW\wechat\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-03-02T11:28:53+08:00 ] 127.0.0.1 GET /index/appointment/address
+[ info ] wechat.my/index/appointment/address [运行时间：0.030097s][吞吐率：33.23req/s] [内存消耗：1,778.77kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:28:53+08:00 ] 127.0.0.1 GET /index/appointment/img/add.png
+[ info ] wechat.my/index/appointment/img/add.png [运行时间：0.030496s][吞吐率：32.79req/s] [内存消耗：1,608.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:28:53+08:00 ] 127.0.0.1 GET /index/appointment/address
+[ info ] wechat.my/index/appointment/address [运行时间：0.030427s][吞吐率：32.87req/s] [内存消耗：1,636.07kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:28:53+08:00 ] 127.0.0.1 GET /index/appointment/img/add.png
+[ info ] wechat.my/index/appointment/img/add.png [运行时间：0.026572s][吞吐率：37.63req/s] [内存消耗：1,608.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T11:28:53+08:00 ] 127.0.0.1 GET /index/appointment/img/add.png
+[ info ] wechat.my/index/appointment/img/add.png [运行时间：0.029600s][吞吐率：33.78req/s] [内存消耗：1,607.71kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36 devtoolsview port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T12:57:04+08:00 ] 127.0.0.1 GET /index/appointment/line
+[ info ] wechat.my/index/appointment/line [运行时间：0.037009s][吞吐率：27.02req/s] [内存消耗：2,098.13kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T12:59:02+08:00 ] 127.0.0.1 GET /index/appointment/showline
+[ info ] wechat.my/index/appointment/showline [运行时间：0.034889s][吞吐率：28.66req/s] [内存消耗：1,719.29kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'showline',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->showline[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yyzs.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T12:59:02+08:00 ] 127.0.0.1 GET /index/appointment/img/date.png
+[ info ] wechat.my/index/appointment/img/date.png [运行时间：0.033853s][吞吐率：29.54req/s] [内存消耗：1,609.83kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/showline',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T12:59:08+08:00 ] 127.0.0.1 GET /index/appointment/address.html
+[ info ] wechat.my/index/appointment/address.html [运行时间：0.029542s][吞吐率：33.85req/s] [内存消耗：1,637.37kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/showline',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T12:59:08+08:00 ] 127.0.0.1 GET /index/appointment/img/add.png
+[ info ] wechat.my/index/appointment/img/add.png [运行时间：0.030389s][吞吐率：32.91req/s] [内存消耗：1,609.81kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T12:59:10+08:00 ] 127.0.0.1 GET /index/user/yypd.html
+[ info ] wechat.my/index/user/yypd.html [运行时间：0.027758s][吞吐率：36.03req/s] [内存消耗：1,611.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'yypd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T12:59:14+08:00 ] 127.0.0.1 GET /index/appointment/img/date.png
+[ info ] wechat.my/index/appointment/img/date.png [运行时间：0.030256s][吞吐率：33.05req/s] [内存消耗：1,609.83kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/showline',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:02:46+08:00 ] 127.0.0.1 GET /index/appointment/showline
+[ info ] wechat.my/index/appointment/showline [运行时间：0.033931s][吞吐率：29.47req/s] [内存消耗：1,782.05kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'showline',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->showline[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yyzs.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:02:46+08:00 ] 127.0.0.1 GET /index/appointment/showline
+[ info ] wechat.my/index/appointment/showline [运行时间：0.029406s][吞吐率：34.01req/s] [内存消耗：1,637.34kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'showline',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->showline[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yyzs.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:02:51+08:00 ] 127.0.0.1 GET /index/user/line.html
+[ info ] wechat.my/index/user/line.html [运行时间：0.027314s][吞吐率：36.61req/s] [内存消耗：1,611.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/showline',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:03:02+08:00 ] 127.0.0.1 GET /index/appointment/address.html
+[ info ] wechat.my/index/appointment/address.html [运行时间：0.025769s][吞吐率：38.81req/s] [内存消耗：1,637.37kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/showline',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:03:02+08:00 ] 127.0.0.1 GET /index/appointment/img/add.png
+[ info ] wechat.my/index/appointment/img/add.png [运行时间：0.027808s][吞吐率：35.96req/s] [内存消耗：1,609.81kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:03:04+08:00 ] 127.0.0.1 GET /index/user/yypd.html
+[ info ] wechat.my/index/user/yypd.html [运行时间：0.027565s][吞吐率：36.28req/s] [内存消耗：1,611.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'yypd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:03:54+08:00 ] 127.0.0.1 GET /index/appointment/address
+[ info ] wechat.my/index/appointment/address [运行时间：0.035319s][吞吐率：28.31req/s] [内存消耗：1,779.90kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:03:54+08:00 ] 127.0.0.1 GET /index/appointment/img/add.png
+[ info ] wechat.my/index/appointment/img/add.png [运行时间：0.027385s][吞吐率：36.52req/s] [内存消耗：1,609.82kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:04:16+08:00 ] 127.0.0.1 GET /index/appointment/address
+[ info ] wechat.my/index/appointment/address [运行时间：0.031136s][吞吐率：32.12req/s] [内存消耗：1,780.14kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:04:16+08:00 ] 127.0.0.1 GET /index/appointment/__IMG_/add.png
+[ info ] wechat.my/index/appointment/__IMG_/add.png [运行时间：0.028154s][吞吐率：35.52req/s] [内存消耗：1,609.81kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => '__IMG_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:04:16+08:00 ] 127.0.0.1 GET /index/appointment/img/add.png
+[ info ] wechat.my/index/appointment/img/add.png [运行时间：0.034267s][吞吐率：29.18req/s] [内存消耗：1,609.82kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:04:16+08:00 ] 127.0.0.1 GET /index/appointment/address
+[ info ] wechat.my/index/appointment/address [运行时间：0.025120s][吞吐率：39.81req/s] [内存消耗：1,637.38kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:04:16+08:00 ] 127.0.0.1 GET /index/appointment/__IMG_/add.png
+[ info ] wechat.my/index/appointment/__IMG_/add.png [运行时间：0.026319s][吞吐率：38.00req/s] [内存消耗：1,609.81kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => '__IMG_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:04:16+08:00 ] 127.0.0.1 GET /index/appointment/img/add.png
+[ info ] wechat.my/index/appointment/img/add.png [运行时间：0.026005s][吞吐率：38.45req/s] [内存消耗：1,609.82kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:04:16+08:00 ] 127.0.0.1 GET /index/appointment/__IMG_/add.png
+[ info ] wechat.my/index/appointment/__IMG_/add.png [运行时间：0.029696s][吞吐率：33.67req/s] [内存消耗：1,608.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => '__IMG_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36 devtoolsview port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:04:16+08:00 ] 127.0.0.1 GET /index/appointment/img/add.png
+[ info ] wechat.my/index/appointment/img/add.png [运行时间：0.032072s][吞吐率：31.18req/s] [内存消耗：1,608.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36 devtoolsview port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:04:36+08:00 ] 127.0.0.1 GET /index/appointment/address
+[ info ] wechat.my/index/appointment/address [运行时间：0.029421s][吞吐率：33.99req/s] [内存消耗：1,780.19kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:04:36+08:00 ] 127.0.0.1 GET /index/appointment/__IMG_/add.png
+[ info ] wechat.my/index/appointment/__IMG_/add.png [运行时间：0.030299s][吞吐率：33.00req/s] [内存消耗：1,609.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => '__IMG_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:04:36+08:00 ] 127.0.0.1 GET /index/appointment/address
+[ info ] wechat.my/index/appointment/address [运行时间：0.030056s][吞吐率：33.27req/s] [内存消耗：1,637.35kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:04:36+08:00 ] 127.0.0.1 GET /index/appointment/__IMG_/add.png
+[ info ] wechat.my/index/appointment/__IMG_/add.png [运行时间：0.024978s][吞吐率：40.04req/s] [内存消耗：1,609.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => '__IMG_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:05:37+08:00 ] 127.0.0.1 GET /index/appointment/address
+[ info ] wechat.my/index/appointment/address [运行时间：0.030042s][吞吐率：33.29req/s] [内存消耗：1,780.13kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:05:38+08:00 ] 127.0.0.1 GET /index/appointment/__IMG_/add.png
+[ info ] wechat.my/index/appointment/__IMG_/add.png [运行时间：0.029345s][吞吐率：34.08req/s] [内存消耗：1,609.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => '__IMG_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:05:38+08:00 ] 127.0.0.1 GET /index/appointment/address
+[ info ] wechat.my/index/appointment/address [运行时间：0.032172s][吞吐率：31.08req/s] [内存消耗：1,637.35kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:05:38+08:00 ] 127.0.0.1 GET /index/appointment/__IMG_/add.png
+[ info ] wechat.my/index/appointment/__IMG_/add.png [运行时间：0.025320s][吞吐率：39.49req/s] [内存消耗：1,609.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => '__IMG_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:05:38+08:00 ] 127.0.0.1 GET /index/appointment/__IMG_/add.png
+[ info ] wechat.my/index/appointment/__IMG_/add.png [运行时间：0.028222s][吞吐率：35.43req/s] [内存消耗：1,608.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => '__IMG_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36 devtoolsview port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:06:19+08:00 ] 127.0.0.1 GET /index/user/line.html
+[ info ] wechat.my/index/user/line.html [运行时间：0.027309s][吞吐率：36.62req/s] [内存消耗：1,611.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:07:00+08:00 ] 127.0.0.1 GET /index/appointment/address
+[ info ] wechat.my/index/appointment/address [运行时间：0.029318s][吞吐率：34.11req/s] [内存消耗：1,780.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:07:00+08:00 ] 127.0.0.1 GET /index/appointment/__IMG_/add.png
+[ info ] wechat.my/index/appointment/__IMG_/add.png [运行时间：0.028695s][吞吐率：34.85req/s] [内存消耗：1,609.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => '__IMG_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:07:01+08:00 ] 127.0.0.1 GET /index/appointment/address
+[ info ] wechat.my/index/appointment/address [运行时间：0.030619s][吞吐率：32.66req/s] [内存消耗：1,637.31kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:07:01+08:00 ] 127.0.0.1 GET /index/appointment/__IMG_/add.png
+[ info ] wechat.my/index/appointment/__IMG_/add.png [运行时间：0.024887s][吞吐率：40.18req/s] [内存消耗：1,609.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => '__IMG_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T13:07:03+08:00 ] 127.0.0.1 GET /index/appointment/line.html
+[ info ] wechat.my/index/appointment/line.html [运行时间：0.032963s][吞吐率：30.34req/s] [内存消耗：2,099.16kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15199554567969363 webdebugger port/9974',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
