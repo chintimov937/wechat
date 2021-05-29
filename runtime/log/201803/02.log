@@ -2196,3 +2196,85 @@
 [ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T16:29:42+08:00 ] 127.0.0.1 GET /index/
+[ info ] wechat.my/index/ [运行时间：0.023736s][吞吐率：42.13req/s] [内存消耗：1,291.93kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\wechat\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T16:29:48+08:00 ] 127.0.0.1 GET /index/user
+[ info ] wechat.my/index/user [运行时间：0.029697s][吞吐率：33.67req/s] [内存消耗：1,611.19kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872; pgv_si=s9758151680',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T16:29:53+08:00 ] 127.0.0.1 GET /index/user/personal
+[ info ] wechat.my/index/user/personal [运行时间：0.046026s][吞吐率：21.73req/s] [内存消耗：1,718.29kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872; pgv_si=s9758151680',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

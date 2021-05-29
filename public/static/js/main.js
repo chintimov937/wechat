@@ -103,30 +103,7 @@ function check_name(){
 function error(msg){
     $(".wrap,.change-ok").show().html(msg);
 }
-//	登录页面验证
-function check_login(){
-    var tel = $(".tel").val();
-    var pwd = $("#pwd").val();
-    if(!check_tel() || !check_pwd()){
-        return false;
-    }else{
-        $.ajax({
-            url:'/',
-            type:'post',
-            dataType:'json',
-            data:{
-                "tel":tel,
-                "pwd":pwd
-            },
-            success:function(data,msg){
-                if(tel != data.tel && pwd != data.pwd){
-                    error(msg);
-                    return false;
-                }
-            }
-        });
-    }
-}
+
 
 
 //	注册页面验证
