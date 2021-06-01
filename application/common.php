@@ -15,8 +15,8 @@
  * 发送post请求
  */
 function curlPost($data){
-    $url = 'http://www.sino-device.com.cn:9040/web/orderservlet';
-    //$url = 'http://10.50.111.128:9080/web/orderservlet';
+    //$url = 'http://www.sino-device.com.cn:9040/web/orderservlet';
+    $url = 'http://10.50.111.128:9080/web/orderservlet';
     //初始化
     $curl = curl_init();
     //设置抓取的url
@@ -34,8 +34,27 @@ function curlPost($data){
     //关闭URL请求
     curl_close($curl);
     //显示获得的数据
-    print_r($res);
-    exit;
+    return $res;
+}
+
+/*
+ * 请求接口
+ */
+function getApi($data){
+    $url = 'http://www.sino-device.com.cn:9040/web/orderservlet';
+    //$url = 'http://10.50.111.128:9080/web/orderservlet';
+
+    $setting = array(
+        'http' => array(
+            'method' => 'POST',
+            'header' => 'Content-type: application/json',
+            'content' => $data
+        )
+    );
+
+    $context = stream_context_create($setting);
+    $response = file_get_contents($url, false, $context);
+    return $response;
 }
 
 /*
@@ -46,12 +65,19 @@ function getResponse($tran_id,$body){
     $data = [
         'head'=>[
             'tran_id'=>$tran_id,
-            'tand_date'=>date('Ymd'),
-            'tand_time'=>time(),
+            'tran_date'=>date('Ymd'),
+            'tran_time'=>time(),
         ],
         'body'=>$body
     ];
     $data = json_encode($data);
-    $response = curlPost($data);
+    $response = json_decode(getApi($data),true);
     return $response;
+}
+
+/*
+ * 检测验证码
+ */
+function check_code($code){
+    return true;
 }

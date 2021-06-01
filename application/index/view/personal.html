@@ -11,7 +11,7 @@
 	<body>
 		<div class="container" style="position:absolute;top:0;left:0;padding:0; width: 100%;height:100%;background:#EEEEEE">
 			<header>
-				<div class="left"><a href="index.html"><span class="glyphicon glyphicon-chevron-left"></span></a></div>
+				<div class="left"><a href="{:url('User/personal')}"><span class="glyphicon glyphicon-chevron-left"></span></a></div>
 				<center><div class="title">个人账户</div></center>
 			</header>
 			<div class="content">
@@ -43,7 +43,7 @@
 				});
 				
 				$(".ok").click(function(){
-					window.location.href="index.html";
+					window.location.href="{:url('Login/loginout')}";
 				});
 				$(".cancel").click(function(){
 					$(".wrap,.qxyy").hide();
