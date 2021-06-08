@@ -1,0 +1,2746 @@
+---------------------------------------------------------------
+[ 2018-03-07T09:38:53+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.053891s][吞吐率：18.56req/s] [内存消耗：1,665.05kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T09:38:53+08:00 ] 127.0.0.1 GET /index/login/login.html
+[ info ] wechat.my/index/login/login.html [运行时间：0.043352s][吞吐率：23.07req/s] [内存消耗：1,797.93kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T09:39:41+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] wechat.my/index/login/dologin.html [运行时间：0.221440s][吞吐率：4.52req/s] [内存消耗：1,598.02kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'pwd' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\Login->doLogin[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T09:39:42+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.046822s][吞吐率：21.36req/s] [内存消耗：1,648.60kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T09:39:45+08:00 ] 127.0.0.1 GET /index/login/loginout.html
+[ info ] wechat.my/index/login/loginout.html [运行时间：0.027279s][吞吐率：36.66req/s] [内存消耗：1,653.91kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->loginout[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T09:39:52+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] wechat.my/index/login/dologin.html [运行时间：0.098064s][吞吐率：10.20req/s] [内存消耗：1,596.40kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'pwd' => '132457',
+)
+[ info ] [ RUN ] app\index\controller\Login->doLogin[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T09:43:28+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] wechat.my/index/login/dologin.html [运行时间：0.123291s][吞吐率：8.11req/s] [内存消耗：1,596.40kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'pwd' => '132457',
+)
+[ info ] [ RUN ] app\index\controller\Login->doLogin[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T09:57:45+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] wechat.my/index/login/dologin.html [运行时间：0.155936s][吞吐率：6.41req/s] [内存消耗：1,596.40kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'pwd' => '132457',
+)
+[ info ] [ RUN ] app\index\controller\Login->doLogin[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T09:57:46+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] wechat.my/index/login/dologin.html [运行时间：0.066876s][吞吐率：14.95req/s] [内存消耗：1,596.40kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'pwd' => '132457',
+)
+[ info ] [ RUN ] app\index\controller\Login->doLogin[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T09:57:53+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] wechat.my/index/login/dologin.html [运行时间：0.075578s][吞吐率：13.23req/s] [内存消耗：1,598.00kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'pwd' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\Login->doLogin[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T09:57:53+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.026330s][吞吐率：37.98req/s] [内存消耗：1,648.64kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T10:55:31+08:00 ] 127.0.0.1 GET /index/login/wjmm
+[ info ] wechat.my/index/login/wjmm [运行时间：0.077989s][吞吐率：12.82req/s] [内存消耗：1,360.55kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'wjmm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}', expecting variable (T_VARIABLE) or '$'[D:\phpStudy\WWW\wechat\application\index\controller\Login.php:95]
+---------------------------------------------------------------
+[ 2018-03-07T10:55:43+08:00 ] 127.0.0.1 GET /index/login/wjmm
+[ info ] wechat.my/index/login/wjmm [运行时间：0.026684s][吞吐率：37.48req/s] [内存消耗：1,624.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'wjmm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T10:55:43+08:00 ] 127.0.0.1 GET /index/login/wjmm
+[ info ] wechat.my/index/login/wjmm [运行时间：0.025374s][吞吐率：39.41req/s] [内存消耗：1,624.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'wjmm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T10:55:52+08:00 ] 127.0.0.1 GET /index/login/forgetpassword
+[ info ] wechat.my/index/login/forgetpassword [运行时间：0.051775s][吞吐率：19.31req/s] [内存消耗：1,798.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'forgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->forgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\wjmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:04:30+08:00 ] 127.0.0.1 GET /index/user/doForgetpassword
+[ info ] wechat.my/index/user/doForgetpassword [运行时间：0.021908s][吞吐率：45.65req/s] [内存消耗：1,663.94kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'doForgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2d7a5653-20bc-4fe0-bb58-11876f686b93',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:04:30+08:00 ] 127.0.0.1 GET /index/login/login.html
+[ info ] wechat.my/index/login/login.html [运行时间：0.020560s][吞吐率：48.64req/s] [内存消耗：1,655.39kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2d7a5653-20bc-4fe0-bb58-11876f686b93',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wechat.my/index/user/doForgetpassword',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:05:53+08:00 ] 127.0.0.1 GET /index/user/doForgetpassword
+[ info ] wechat.my/index/user/doForgetpassword [运行时间：0.023112s][吞吐率：43.27req/s] [内存消耗：1,663.99kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'doForgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ed31a49d-43f0-4381-a5af-903359310c51',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:05:53+08:00 ] 127.0.0.1 GET /index/login/login.html
+[ info ] wechat.my/index/login/login.html [运行时间：0.023611s][吞吐率：42.35req/s] [内存消耗：1,655.04kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ed31a49d-43f0-4381-a5af-903359310c51',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wechat.my/index/user/doForgetpassword',
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:06:00+08:00 ] 127.0.0.1 GET /index/login/doForgetpassword
+[ info ] wechat.my/index/login/doForgetpassword [运行时间：0.168884s][吞吐率：5.92req/s] [内存消耗：1,596.70kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'doForgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '23123f30-de0d-4c96-9191-30ba64ab379d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->doForgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:06:26+08:00 ] 127.0.0.1 GET /index/login/doForgetpassword
+[ info ] wechat.my/index/login/doForgetpassword [运行时间：0.108827s][吞吐率：9.19req/s] [内存消耗：1,598.40kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'doForgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '45ee9ac6-d9e6-4ac5-ba8b-5e37f8869bb1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->doForgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:06:38+08:00 ] 127.0.0.1 GET /index/login/login.html
+[ info ] wechat.my/index/login/login.html [运行时间：0.028280s][吞吐率：35.36req/s] [内存消耗：1,674.22kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/forgetpassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:06:38+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.024648s][吞吐率：40.57req/s] [内存消耗：1,648.64kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/forgetpassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:06:41+08:00 ] 127.0.0.1 GET /index/login/loginout.html
+[ info ] wechat.my/index/login/loginout.html [运行时间：0.024760s][吞吐率：40.39req/s] [内存消耗：1,656.43kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->loginout[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:06:47+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] wechat.my/index/login/dologin.html [运行时间：0.068536s][吞吐率：14.59req/s] [内存消耗：1,600.63kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'pwd' => '111111',
+)
+[ info ] [ RUN ] app\index\controller\Login->doLogin[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:06:47+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.027017s][吞吐率：37.01req/s] [内存消耗：1,648.64kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:06:49+08:00 ] 127.0.0.1 GET /index/login/loginout.html
+[ info ] wechat.my/index/login/loginout.html [运行时间：0.025703s][吞吐率：38.91req/s] [内存消耗：1,656.43kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->loginout[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:10:04+08:00 ] 127.0.0.1 GET /index/login/doForgetpassword
+[ info ] wechat.my/index/login/doForgetpassword [运行时间：0.095690s][吞吐率：10.45req/s] [内存消耗：1,598.40kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'doForgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c0245cd1-122e-47e6-aea5-90f5149607c0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->doForgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:10:43+08:00 ] 127.0.0.1 GET /index/login/doForgetpassword
+[ info ] wechat.my/index/login/doForgetpassword [运行时间：0.021312s][吞吐率：46.92req/s] [内存消耗：1,596.61kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'doForgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '308fe42d-3e4d-4343-9111-6151a336b7e5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->doForgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T11:20:45+08:00 ] 127.0.0.1 GET /index/login/doForgetpassword
+[ info ] wechat.my/index/login/doForgetpassword [运行时间：0.258579s][吞吐率：3.87req/s] [内存消耗：1,596.70kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'doForgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e88d15fe-251b-4421-9ce2-79e7f32616f4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->doForgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:30:12+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] wechat.my/index/login/dologin.html [运行时间：0.165005s][吞吐率：6.06req/s] [内存消耗：1,600.63kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'pwd' => '111111',
+)
+[ info ] [ RUN ] app\index\controller\Login->doLogin[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:30:12+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.038825s][吞吐率：25.76req/s] [内存消耗：1,648.64kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:30:14+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.026070s][吞吐率：38.36req/s] [内存消耗：1,648.64kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:30:15+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.024971s][吞吐率：40.05req/s] [内存消耗：1,648.64kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:30:17+08:00 ] 127.0.0.1 GET /index/login/loginout.html
+[ info ] wechat.my/index/login/loginout.html [运行时间：0.026021s][吞吐率：38.43req/s] [内存消耗：1,656.43kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->loginout[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:30:18+08:00 ] 127.0.0.1 GET /index/login/wjmm.html
+[ info ] wechat.my/index/login/wjmm.html [运行时间：0.027215s][吞吐率：36.74req/s] [内存消耗：1,627.65kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'wjmm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:31:32+08:00 ] 127.0.0.1 GET /index/login/loginout.html
+[ info ] wechat.my/index/login/loginout.html [运行时间：0.029044s][吞吐率：34.43req/s] [内存消耗：1,801.26kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->loginout[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:31:33+08:00 ] 127.0.0.1 GET /index/login/loginout.html
+[ info ] wechat.my/index/login/loginout.html [运行时间：0.025126s][吞吐率：39.80req/s] [内存消耗：1,656.62kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->loginout[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:31:33+08:00 ] 127.0.0.1 GET /index/login/loginout.html
+[ info ] wechat.my/index/login/loginout.html [运行时间：0.026790s][吞吐率：37.33req/s] [内存消耗：1,656.34kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->loginout[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:31:36+08:00 ] 127.0.0.1 GET /index/login/forgetpassword.html
+[ info ] wechat.my/index/login/forgetpassword.html [运行时间：0.029284s][吞吐率：34.15req/s] [内存消耗：1,801.77kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'forgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->forgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\wjmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:31:57+08:00 ] 127.0.0.1 POST /index/login/doforgetpassword.html
+[ info ] wechat.my/index/login/doforgetpassword.html [运行时间：0.080674s][吞吐率：12.40req/s] [内存消耗：1,599.28kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'doforgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/forgetpassword.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '18751970618',
+  'code' => '123',
+  'pwd' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\Login->doForgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:32:06+08:00 ] 127.0.0.1 POST /index/login/doforgetpassword.html
+[ info ] wechat.my/index/login/doforgetpassword.html [运行时间：0.071863s][吞吐率：13.92req/s] [内存消耗：1,599.28kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'doforgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/forgetpassword.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'code' => '123',
+  'pwd' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\Login->doForgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:32:25+08:00 ] 127.0.0.1 GET /index/login/doForgetpassword
+[ info ] wechat.my/index/login/doForgetpassword [运行时间：0.085765s][吞吐率：11.66req/s] [内存消耗：1,596.70kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'doForgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2ecc67e8-8bf1-4d60-8fdd-4a27922f78ad',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->doForgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:33:07+08:00 ] 127.0.0.1 POST /index/login/doforgetpassword.html
+[ info ] wechat.my/index/login/doforgetpassword.html [运行时间：0.026608s][吞吐率：37.58req/s] [内存消耗：1,635.94kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'doforgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/forgetpassword.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'code' => '123',
+  'pwd' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\Login->doForgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: password[D:\phpStudy\WWW\wechat\application\index\controller\Login.php:96]
+---------------------------------------------------------------
+[ 2018-03-07T14:33:23+08:00 ] 127.0.0.1 POST /index/login/doforgetpassword.html
+[ info ] wechat.my/index/login/doforgetpassword.html [运行时间：0.097434s][吞吐率：10.26req/s] [内存消耗：1,601.18kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'doforgetpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/forgetpassword.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'code' => '123',
+  'pwd' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\Login->doForgetpassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:33:25+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.040481s][吞吐率：24.70req/s] [内存消耗：1,648.64kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/forgetpassword.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:33:28+08:00 ] 127.0.0.1 GET /index/login/loginout.html
+[ info ] wechat.my/index/login/loginout.html [运行时间：0.027873s][吞吐率：35.88req/s] [内存消耗：1,656.67kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->loginout[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:33:34+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] wechat.my/index/login/dologin.html [运行时间：0.070185s][吞吐率：14.25req/s] [内存消耗：1,600.83kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'pwd' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\Login->doLogin[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:33:34+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.028243s][吞吐率：35.41req/s] [内存消耗：1,648.64kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T14:33:37+08:00 ] 127.0.0.1 GET /index/user/change-tel.html
+[ info ] wechat.my/index/user/change-tel.html [运行时间：0.027741s][吞吐率：36.05req/s] [内存消耗：1,621.50kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'change-tel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T15:23:44+08:00 ] 127.0.0.1 GET /index/login/changepassword
+[ info ] wechat.my/index/login/changepassword [运行时间：0.054035s][吞吐率：18.51req/s] [内存消耗：1,798.38kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'changepassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->changepassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\xgmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T15:49:57+08:00 ] 127.0.0.1 GET /index/login/changepassword
+[ info ] wechat.my/index/login/changepassword [运行时间：0.034832s][吞吐率：28.71req/s] [内存消耗：1,802.35kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'changepassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->changepassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\xgmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T15:49:57+08:00 ] 127.0.0.1 GET /index/login/changepassword
+[ info ] wechat.my/index/login/changepassword [运行时间：0.028020s][吞吐率：35.69req/s] [内存消耗：1,656.62kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'changepassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->changepassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\xgmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T16:59:11+08:00 ] 127.0.0.1 GET /index/login/changepassword
+[ info ] wechat.my/index/login/changepassword [运行时间：0.060583s][吞吐率：16.51req/s] [内存消耗：1,803.58kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'changepassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->changepassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\xgmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T16:59:11+08:00 ] 127.0.0.1 GET /index/login/changepassword
+[ info ] wechat.my/index/login/changepassword [运行时间：0.026607s][吞吐率：37.58req/s] [内存消耗：1,657.69kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'changepassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->changepassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\xgmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T16:59:19+08:00 ] 127.0.0.1 POST /index/login/dochangepassword.html
+[ info ] wechat.my/index/login/dochangepassword.html [运行时间：0.126243s][吞吐率：7.92req/s] [内存消耗：1,603.82kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dochangepassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '22',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/changepassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'opwd' => '123456',
+  'pwd' => '111111',
+)
+[ info ] [ RUN ] app\index\controller\Login->doChangepassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T16:59:21+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.055744s][吞吐率：17.94req/s] [内存消耗：1,648.64kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/changepassword',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T16:59:25+08:00 ] 127.0.0.1 GET /index/login/loginout.html
+[ info ] wechat.my/index/login/loginout.html [运行时间：0.026582s][吞吐率：37.62req/s] [内存消耗：1,659.49kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->loginout[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T16:59:35+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] wechat.my/index/login/dologin.html [运行时间：0.121673s][吞吐率：8.22req/s] [内存消耗：1,602.04kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'pwd' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\Login->doLogin[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T16:59:41+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] wechat.my/index/login/dologin.html [运行时间：0.065244s][吞吐率：15.33req/s] [内存消耗：1,603.64kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'pwd' => '111111',
+)
+[ info ] [ RUN ] app\index\controller\Login->doLogin[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T16:59:41+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.026030s][吞吐率：38.42req/s] [内存消耗：1,648.64kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T16:59:42+08:00 ] 127.0.0.1 GET /index/user/xgmm.html
+[ info ] wechat.my/index/user/xgmm.html [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,621.41kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'xgmm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:24:58+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.028365s][吞吐率：35.25req/s] [内存消耗：1,648.64kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:25:37+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.029430s][吞吐率：33.98req/s] [内存消耗：1,791.13kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:25:37+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.026662s][吞吐率：37.51req/s] [内存消耗：1,648.53kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:25:38+08:00 ] 127.0.0.1 GET /index/login/changepassword.html
+[ info ] wechat.my/index/login/changepassword.html [运行时间：0.027283s][吞吐率：36.65req/s] [内存消耗：1,657.82kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'changepassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->changepassword[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\xgmm.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:25:40+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.026324s][吞吐率：37.99req/s] [内存消耗：1,648.65kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/changepassword.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:25:41+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.025439s][吞吐率：39.31req/s] [内存消耗：1,648.65kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:25:42+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.027052s][吞吐率：36.97req/s] [内存消耗：1,648.65kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:25:47+08:00 ] 127.0.0.1 GET /index/user/change-tel.html
+[ info ] wechat.my/index/user/change-tel.html [运行时间：0.027808s][吞吐率：35.96req/s] [内存消耗：1,621.50kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'change-tel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:26:29+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.030407s][吞吐率：32.89req/s] [内存消耗：1,790.95kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:26:30+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.026216s][吞吐率：38.14req/s] [内存消耗：1,648.78kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:26:31+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.026471s][吞吐率：37.78req/s] [内存消耗：1,648.53kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:26:31+08:00 ] 127.0.0.1 GET /index/login/changetel.html
+[ info ] wechat.my/index/login/changetel.html [运行时间：0.047292s][吞吐率：21.15req/s] [内存消耗：1,800.93kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'changetel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->changetel[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\change-tel.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:38:33+08:00 ] 127.0.0.1 POST /
+[ info ] wechat.my/ [运行时间：0.037825s][吞吐率：26.44req/s] [内存消耗：1,306.30kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/changetel.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\wechat\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:42:40+08:00 ] 127.0.0.1 GET /index/login/changetel.html
+[ info ] wechat.my/index/login/changetel.html [运行时间：0.031020s][吞吐率：32.24req/s] [内存消耗：1,804.38kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'changetel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->changetel[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\change-tel.html [ array (
+  0 => 'tel',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:42:40+08:00 ] 127.0.0.1 GET /index/login/changetel.html
+[ info ] wechat.my/index/login/changetel.html [运行时间：0.029034s][吞吐率：34.44req/s] [内存消耗：1,660.93kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'changetel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->changetel[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\change-tel.html [ array (
+  0 => 'tel',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:43:01+08:00 ] 127.0.0.1 GET /index/login/changetel.html
+[ info ] wechat.my/index/login/changetel.html [运行时间：0.030805s][吞吐率：32.46req/s] [内存消耗：1,804.18kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'changetel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->changetel[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\change-tel.html [ array (
+  0 => 'tel',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T17:43:01+08:00 ] 127.0.0.1 GET /index/login/changetel.html
+[ info ] wechat.my/index/login/changetel.html [运行时间：0.028536s][吞吐率：35.04req/s] [内存消耗：1,660.91kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'changetel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15203867007079252 webdebugger port/56987',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=fbcmkgoamf2jg29l1umc8dhji1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->changetel[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\change-tel.html [ array (
+  0 => 'tel',
+) ]
+[ info ] [ LOG ] INIT File

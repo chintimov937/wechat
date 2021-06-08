@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:66:"D:\phpStudy\WWW\wechat\public/../application/index\view\index.html";i:1520404283;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
@@ -5,13 +6,13 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 		<title>登录页</title>
-		<link rel="stylesheet" type="text/css" href="__CSS__/bootstrap.min.css"/>
-		<link rel="stylesheet" type="text/css" href="__CSS__/layout.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/layout.css"/>
 	</head>
 	<body>
 		<div class="container" style="position:absolute;top:0;left:0;width: 100%;height:100%;background-color:darkturquoise;">
 			<center>
-				<form action="{:url('Login/doLogin')}" method="post" class="form-inline form-login" id="login">
+				<form action="<?php echo url('Login/doLogin'); ?>" method="post" class="form-inline form-login" id="login">
 					<div class="row">
 						<div class="col-md-10 col-sm-10 col-xs-10 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
 							<div class="form-group">
@@ -39,7 +40,7 @@
 					</div>
 				</form>
 				<p class="link">
-					<a href="{:url('Login/register')}">注册</a>&nbsp;&nbsp; | &nbsp;&nbsp;<a href="{:url('Login/forgetpassword')}">忘记密码</a>
+					<a href="<?php echo url('Login/register'); ?>">注册</a>&nbsp;&nbsp; | &nbsp;&nbsp;<a href="<?php echo url('Login/forgetpassword'); ?>">忘记密码</a>
 				</p>
 			</center>
 		</div>
@@ -49,9 +50,9 @@
 				<p>更换手机号成功！</p>
 			</center>
 		</div>
-		<script type="text/javascript" src="__JS__/jquery-2.1.4.min.js" ></script>
-		<script type="text/javascript" src="__JS__/bootstrap.min.js" ></script>
-		<script type="text/javascript" src="__JS__/main.js"></script>
+		<script type="text/javascript" src="/static/js/jquery-2.1.4.min.js" ></script>
+		<script type="text/javascript" src="/static/js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="/static/js/main.js"></script>
 		<script>
             //	登录页面验证
             function check_login(){
@@ -61,7 +62,7 @@
                     return false;
                 }else{
                     $.ajax({
-                        url:"{:url('Login/doLogin')}",
+                        url:"<?php echo url('Login/doLogin'); ?>",
                         type:'post',
                         dataType:'json',
                         data:{
@@ -70,7 +71,7 @@
                         },
                         success:function(data){
                             if(data.rc==0){
-                                window.location.href="{:url('User/personal')}"
+                                window.location.href="<?php echo url('User/personal'); ?>"
 							}else{
                                 error(data.rc_msg);
                                 return false;

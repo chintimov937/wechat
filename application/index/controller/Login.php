@@ -91,16 +91,95 @@ class Login extends Controller
      * 执行忘记密码
      */
     public function doForgetpassword(){
-        
+        $phone = $_POST['tel'];
+        $code = $_POST['code'];
+        $password = $_POST['pwd'];
+        $check_code = check_code($code);
+
+        if(!$check_code){
+            $data['rc'] = 1001;
+            $data['rc_msg'] = '验证码错误';
+            return json($data);
+        }
+
+        $tran_id = 8004;
+        $body = [
+            'phone'=>$phone,
+            'password'=>$password,
+        ];
+
+        $res = getResponse($tran_id,$body);
+        if($res['rc'] == 0){
+            Session::set('tel',$phone);
+        }
+        return json($res);
     }
 
+    /*
+     * 修改密码
+     */
     public function changepassword(){
+        if(!session('tel')){
+            $this->redirect('User/personal');
+        }
         return $this->fetch('/xgmm');
     }
 
+    /*
+     * 执行修改密码
+     */
+    public function doChangepassword(){
+        $phone = session('tel');
+        $opwd = $_POST['opwd'];
+        $npwd = $_POST['pwd'];
+
+        $tran_id = 8006;
+        $body = [
+            'phone'=>$phone,
+            'password'=>$opwd,
+            'newpassword'=>$npwd,
+        ];
+
+        $res = getResponse($tran_id,$body);
+        return json($res);
+
+    }
+
+    /*
+     * 修改手机号
+     */
     public function changetel(){
+        if(!session('tel')){
+            $this->redirect('User/personal');
+        }
+        $this->assign('tel',session('tel'));
         return $this->fetch('/change-tel');
     }
+
+    /*
+     * 执行修改手机号
+     */
+    public function doChangetel(){
+        $ophone = session('tel');
+        $nphone = $_POST['tel'];
+        $code = $_POST['code'];
+        $check_code = check_code($code);
+        if(!$check_code){
+            $data['rc'] = 1001;
+            $data['rc_msg'] = '验证码错误';
+            return json($data);
+        }
+
+        $tran_id = 8005;
+        $body = [
+            'phone'=>$ophone,
+            'newphone'=>$nphone,
+        ];
+        $res = getResponse($tran_id,$body);
+        return json($res);
+    }
+
+
 
     /*
      * 退出登陆

@@ -114,39 +114,6 @@ function per_name(){
     $(".rel-name").show();
 }
 
-// 更换手机号
-function change_tel(){
-    var tel = $(".tel").val();
-    var code = $(".code").val();
-    if(!check_tel() || !check_code()){
-        return false;
-    }else{
-        $.ajax({
-            type:'post',
-            url:'/',
-            async:true,
-            dataType:'json',
-            data:{"tel":tel,
-                "code":code
-            },
-            success:function(data){
-                if(tel == data.tel){
-                    $(".tel-error").show().html("该手机号与当前绑定的手机号相同");
-                    return false;
-                }else if(data.code != code){
-                    $(".code-error").show().html("验证码填写错误!");
-                    return false;
-                }else{
-                    $(".wrap,.change-ok").show();
-                    setTimeout(function(){
-                        $(".wrap,.change-ok").hide();
-                        window.location.href="personal.html";
-                    },2000)
-                }
-            }
-        });
-    }
-}
 
 // 填写验证码
 //function inp_code(){
