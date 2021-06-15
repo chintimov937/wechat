@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:71:"D:\phpStudy\WWW\wechat\public/../application/index\view\change-tel.html";i:1520415776;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:71:"D:\phpStudy\WWW\wechat\public/../application/index\view\change-tel.html";i:1520475212;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
@@ -58,5 +58,40 @@
 		<script type="text/javascript" src="/static/js/jquery-2.1.4.min.js" ></script>
 		<script type="text/javascript" src="/static/js/bootstrap.min.js" ></script>
 		<script type="text/javascript" src="/static/js/main.js"></script>
+		<script>
+            // 更换手机号
+            function change_tel(){
+                var tel = $(".tel").val();
+                var code = $(".code").val();
+                if(!check_tel() || !check_code()){
+                    return false;
+                }else{
+                    $.ajax({
+                        type:'post',
+                        url:"<?php echo url('Login/doChangetel'); ?>",
+                        async:true,
+                        dataType:'json',
+                        data:{"tel":tel,
+                            "code":code
+                        },
+                        success:function(data){
+                            if(data.rc == 0){
+                                $(".wrap,.change-ok").show();
+                                setTimeout(function(){
+                                    $(".wrap,.change-ok").hide();
+                                    window.location.href="<?php echo url('User/personal'); ?>";
+                                },2000)
+							}else if(data.rc == 1001){
+                                $(".code-error").show().html("验证码填写错误!");
+                                return false;
+							}else{
+                                $(".tel-error").show().html("该手机号已被注册!");
+                                return false;
+							}
+                        }
+                    });
+                }
+            }
+		</script>
 	</body>
 </html>

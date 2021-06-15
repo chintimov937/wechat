@@ -72,8 +72,7 @@ function check_code(){
 function check_card(){
     var card = $(".card").val();
     //	18位身份证
-    var isIDCard2=/^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{4}$/;
-
+    var isIDCard2=/^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/;
     $(".card").focus(function(){
         $(".card-error").hide();
     });
@@ -107,12 +106,6 @@ function error(msg){
 
 
 
-//	个人账户，实名认证
-function per_name(){
-    window.location.href="register.html";
-    $(".tab-content").hide();
-    $(".rel-name").show();
-}
 
 
 // 填写验证码

@@ -1,0 +1,2477 @@
+---------------------------------------------------------------
+[ 2018-03-09T14:41:25+08:00 ] 127.0.0.1 GET /index/
+[ info ] wechat.my/index/ [运行时间：0.030645s][吞吐率：32.63req/s] [内存消耗：1,297.22kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\wechat\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T14:41:25+08:00 ] 127.0.0.1 GET /index/
+[ info ] wechat.my/index/ [运行时间：0.031822s][吞吐率：31.42req/s] [内存消耗：1,297.22kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\wechat\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T14:41:39+08:00 ] 127.0.0.1 GET /index/user/personal
+[ info ] wechat.my/index/user/personal [运行时间：0.057950s][吞吐率：17.26req/s] [内存消耗：1,665.21kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816; pgv_si=s6219234304',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T14:41:39+08:00 ] 127.0.0.1 GET /index/login/login.html
+[ info ] wechat.my/index/login/login.html [运行时间：0.026162s][吞吐率：38.22req/s] [内存消耗：1,665.16kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816; pgv_si=s6219234304; PHPSESSID=vbrobrqobs3bamq7vcs4mgvmj7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T14:41:46+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] wechat.my/index/login/dologin.html [运行时间：0.174601s][吞吐率：5.73req/s] [内存消耗：1,609.94kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816; pgv_si=s6219234304; PHPSESSID=vbrobrqobs3bamq7vcs4mgvmj7',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'pwd' => '111111',
+)
+[ info ] [ RUN ] app\index\controller\Login->doLogin[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T14:41:46+08:00 ] 127.0.0.1 GET /index/user/personal.html
+[ info ] wechat.my/index/user/personal.html [运行时间：0.047672s][吞吐率：20.98req/s] [内存消耗：1,791.49kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'personal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816; pgv_si=s6219234304; PHPSESSID=vbrobrqobs3bamq7vcs4mgvmj7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->personal[ D:\phpStudy\WWW\wechat\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T14:41:49+08:00 ] 127.0.0.1 GET /index/login/loginout.html
+[ info ] wechat.my/index/login/loginout.html [运行时间：0.026981s][吞吐率：37.06req/s] [内存消耗：1,665.73kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816; pgv_si=s6219234304; PHPSESSID=vbrobrqobs3bamq7vcs4mgvmj7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->loginout[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T15:13:50+08:00 ] 127.0.0.1 GET /index/appointment/address
+[ info ] wechat.my/index/appointment/address [运行时间：0.055297s][吞吐率：18.08req/s] [内存消耗：1,784.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816; pgv_si=s6219234304; PHPSESSID=vbrobrqobs3bamq7vcs4mgvmj7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->address[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\address.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T15:13:50+08:00 ] 127.0.0.1 GET /index/appointment/__IMG_/add.png
+[ info ] wechat.my/index/appointment/__IMG_/add.png [运行时间：0.045989s][吞吐率：21.74req/s] [内存消耗：1,614.79kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => '__IMG_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/appointment/address',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816; pgv_si=s6219234304; PHPSESSID=vbrobrqobs3bamq7vcs4mgvmj7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T15:13:53+08:00 ] 127.0.0.1 GET /index/login/loginout.html
+[ info ] wechat.my/index/login/loginout.html [运行时间：0.026663s][吞吐率：37.51req/s] [内存消耗：1,665.69kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://wechat.my/index/user/personal.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816; pgv_si=s6219234304; PHPSESSID=vbrobrqobs3bamq7vcs4mgvmj7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->loginout[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T15:14:01+08:00 ] 127.0.0.1 GET /index/login/line
+[ info ] wechat.my/index/login/line [运行时间：0.031665s][吞吐率：31.58req/s] [内存消耗：1,636.47kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816; pgv_si=s6219234304; PHPSESSID=vbrobrqobs3bamq7vcs4mgvmj7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T15:14:09+08:00 ] 127.0.0.1 GET /index/a
+[ info ] wechat.my/index/a [运行时间：0.042946s][吞吐率：23.29req/s] [内存消耗：1,338.62kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'a',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816; pgv_si=s6219234304; PHPSESSID=vbrobrqobs3bamq7vcs4mgvmj7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T15:14:16+08:00 ] 127.0.0.1 GET /index/appointment/line
+[ info ] wechat.my/index/appointment/line [运行时间：0.060297s][吞吐率：16.58req/s] [内存消耗：2,103.81kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816; pgv_si=s6219234304; PHPSESSID=vbrobrqobs3bamq7vcs4mgvmj7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:19:41+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：2.569362s][吞吐率：0.39req/s] [内存消耗：1,622.85kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6ea9f1ab-c366-49a3-916c-91915ab09692',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T16:21:58+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：1.053908s][吞吐率：0.95req/s] [内存消耗：1,622.69kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7ed75531-0bf1-4e32-aedd-a8633c34657c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9040/web/orderservlet): [D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T16:22:20+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：1.044922s][吞吐率：0.96req/s] [内存消耗：1,623.03kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9040/web/orderservlet): [D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T16:27:25+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.232573s][吞吐率：4.30req/s] [内存消耗：1,578.05kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:28:47+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.120101s][吞吐率：8.33req/s] [内存消耗：1,578.02kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:28:49+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.116191s][吞吐率：8.61req/s] [内存消耗：1,578.02kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:28:57+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.111422s][吞吐率：8.97req/s] [内存消耗：1,623.44kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T16:29:35+08:00 ] 127.0.0.1 GET /index/login/loginout.html
+[ info ] wechat.my/index/login/loginout.html [运行时间：0.028282s][吞吐率：35.36req/s] [内存消耗：1,665.35kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816; pgv_si=s6219234304; PHPSESSID=vbrobrqobs3bamq7vcs4mgvmj7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->loginout[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:29:46+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] wechat.my/index/login/dologin.html [运行时间：0.232962s][吞吐率：4.29req/s] [内存消耗：1,608.40kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15205776135606828 webdebugger port/64904',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/login/loginout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816; pgv_si=s6219234304; PHPSESSID=vbrobrqobs3bamq7vcs4mgvmj7',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '13333333333',
+  'pwd' => '111111',
+)
+[ info ] [ RUN ] app\index\controller\Login->doLogin[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:29:56+08:00 ] 127.0.0.1 GET /index/login/loginout.html
+[ info ] wechat.my/index/login/loginout.html [运行时间：0.036295s][吞吐率：27.55req/s] [内存消耗：1,664.10kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2f11a814-4209-4f67-b91e-22a04802c044',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->loginout[ D:\phpStudy\WWW\wechat\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:43:19+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.048208s][吞吐率：20.74req/s] [内存消耗：1,354.48kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}'[D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php:47]
+---------------------------------------------------------------
+[ 2018-03-09T16:43:33+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.024681s][吞吐率：40.52req/s] [内存消耗：1,578.41kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:43:50+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.024066s][吞吐率：41.55req/s] [内存消耗：1,578.39kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:44:13+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.099888s][吞吐率：10.01req/s] [内存消耗：1,623.94kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T16:45:00+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.112349s][吞吐率：8.90req/s] [内存消耗：1,623.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T16:45:01+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.165150s][吞吐率：6.06req/s] [内存消耗：1,623.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T16:45:01+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.129830s][吞吐率：7.70req/s] [内存消耗：1,623.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T16:45:02+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.125932s][吞吐率：7.94req/s] [内存消耗：1,623.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T16:45:02+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.114411s][吞吐率：8.74req/s] [内存消耗：1,623.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T16:45:02+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.137615s][吞吐率：7.27req/s] [内存消耗：1,623.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T16:56:28+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：11.897317s][吞吐率：0.08req/s] [内存消耗：1,578.88kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:57:04+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.284318s][吞吐率：3.52req/s] [内存消耗：1,579.20kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:57:05+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.239044s][吞吐率：4.18req/s] [内存消耗：1,579.20kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:57:06+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.215870s][吞吐率：4.63req/s] [内存消耗：1,579.20kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:01:37+08:00 ] 127.0.0.1 GET /index/appointment/buiness
+[ info ] wechat.my/index/appointment/buiness [运行时间：0.024861s][吞吐率：40.22req/s] [内存消耗：1,615.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'buiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd29b4629-f3ed-40b0-bbf0-009ea352c978',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:01:52+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.086730s][吞吐率：11.53req/s] [内存消耗：1,578.52kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd5be4a23-5153-444e-af1f-9aca2130b4c7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:02:39+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.077857s][吞吐率：12.84req/s] [内存消耗：1,579.20kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:02:40+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.094471s][吞吐率：10.59req/s] [内存消耗：1,579.20kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:02:49+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.109551s][吞吐率：9.13req/s] [内存消耗：1,579.20kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:02:50+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.069817s][吞吐率：14.32req/s] [内存消耗：1,579.20kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:07:18+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.165356s][吞吐率：6.05req/s] [内存消耗：1,624.42kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:10:17+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.589002s][吞吐率：1.70req/s] [内存消耗：1,624.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:10:19+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.102298s][吞吐率：9.78req/s] [内存消耗：1,624.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:10:19+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.173732s][吞吐率：5.76req/s] [内存消耗：1,624.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:10:20+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.147209s][吞吐率：6.79req/s] [内存消耗：1,624.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:10:39+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.153132s][吞吐率：6.53req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:10:39+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.101389s][吞吐率：9.86req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:10:40+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.104654s][吞吐率：9.56req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:10:40+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.101168s][吞吐率：9.88req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:10:40+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.112181s][吞吐率：8.91req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:10:41+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.109865s][吞吐率：9.10req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:10:41+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.080329s][吞吐率：12.45req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:10:42+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.073958s][吞吐率：13.52req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:10:44+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.113790s][吞吐率：8.79req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:11:14+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.108037s][吞吐率：9.26req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:11:15+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.101457s][吞吐率：9.86req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:11:16+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.123432s][吞吐率：8.10req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:11:26+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.076093s][吞吐率：13.14req/s] [内存消耗：1,624.14kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2f83e2e0-1d14-4a2a-b3b5-8e96d0cc1c6f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:13:46+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：12.689615s][吞吐率：0.08req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:13:49+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：16.130447s][吞吐率：0.06req/s] [内存消耗：1,624.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:14:09+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：6.156743s][吞吐率：0.16req/s] [内存消耗：1,624.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:14:09+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：7.423138s][吞吐率：0.13req/s] [内存消耗：1,624.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:19:18+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：4.209593s][吞吐率：0.24req/s] [内存消耗：1,624.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:22:02+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.081088s][吞吐率：12.33req/s] [内存消耗：1,624.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:22:23+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.400159s][吞吐率：2.50req/s] [内存消耗：1,624.69kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:22:25+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.156490s][吞吐率：6.39req/s] [内存消耗：1,624.68kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:22:30+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：3.344336s][吞吐率：0.30req/s] [内存消耗：1,624.68kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:22:31+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：2.215369s][吞吐率：0.45req/s] [内存消耗：1,624.68kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(http://10.50.111.128:9080/web/orderservlet): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[D:\phpStudy\WWW\wechat\application\common.php:56]
+---------------------------------------------------------------
+[ 2018-03-09T17:26:13+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.128263s][吞吐率：7.80req/s] [内存消耗：1,578.51kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7bd7f1f6-bc4a-42af-a7a4-d39695a5eb94',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:27:30+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.071878s][吞吐率：13.91req/s] [内存消耗：1,579.27kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:28:56+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.236591s][吞吐率：4.23req/s] [内存消耗：1,578.49kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bbea22f5-8275-419b-bc67-383340f290dd',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:30:52+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.082028s][吞吐率：12.19req/s] [内存消耗：1,578.51kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f7e79687-35c2-412c-9a57-2fe0bc731ac2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:31:14+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.079727s][吞吐率：12.54req/s] [内存消耗：1,578.52kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4affd054-6821-4e69-91fa-80ef3d74f34a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:31:33+08:00 ] 127.0.0.1 GET /index/appointment/getbusinesshall
+[ info ] wechat.my/index/appointment/getbusinesshall [运行时间：0.115451s][吞吐率：8.66req/s] [内存消耗：1,579.23kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:31:38+08:00 ] 127.0.0.1 GET /index/appointment/getbusiness
+[ info ] wechat.my/index/appointment/getbusiness [运行时间：0.026730s][吞吐率：37.41req/s] [内存消耗：1,616.57kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:31:47+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.251631s][吞吐率：3.97req/s] [内存消耗：1,578.92kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:32:00+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.093095s][吞吐率：10.74req/s] [内存消耗：1,578.52kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1bf29d41-bc34-424d-baa4-90d4f66df670',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:37:11+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.101839s][吞吐率：9.82req/s] [内存消耗：1,579.28kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:37:31+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.449430s][吞吐率：2.23req/s] [内存消耗：1,579.28kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:39:19+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.702086s][吞吐率：1.42req/s] [内存消耗：1,579.28kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3343.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6402255872',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:40:07+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：1.056297s][吞吐率：0.95req/s] [内存消耗：1,578.58kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ab776995-6851-4c1c-838a-93f66ccb87f6',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File

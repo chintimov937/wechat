@@ -1,0 +1,1266 @@
+---------------------------------------------------------------
+[ 2018-03-30T09:47:30+08:00 ] 127.0.0.1 GET /index/appointment/line
+[ info ] wechat.my/index/appointment/line [运行时间：0.064208s][吞吐率：15.57req/s] [内存消耗：1,647.59kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T09:53:31+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：2.885158s][吞吐率：0.35req/s] [内存消耗：1,592.29kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '江苏省-南京市-建邺区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T09:53:35+08:00 ] 127.0.0.1 POST /index/appointment/getbussiness.html
+[ info ] wechat.my/index/appointment/getbussiness.html [运行时间：2.292034s][吞吐率：0.44req/s] [内存消耗：1,592.48kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '城西营业厅',
+  'id' => '313',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:13:44+08:00 ] 127.0.0.1 GET /index/appointment/line
+[ info ] wechat.my/index/appointment/line [运行时间：0.029513s][吞吐率：33.88req/s] [内存消耗：1,647.87kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:13:44+08:00 ] 127.0.0.1 GET /index/appointment/line
+[ info ] wechat.my/index/appointment/line [运行时间：0.025537s][吞吐率：39.16req/s] [内存消耗：1,647.87kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:13:53+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：0.242169s][吞吐率：4.13req/s] [内存消耗：1,592.35kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '江苏省-南京市-建邺区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:13:56+08:00 ] 127.0.0.1 POST /index/appointment/getbussiness.html
+[ info ] wechat.my/index/appointment/getbussiness.html [运行时间：0.084943s][吞吐率：11.77req/s] [内存消耗：1,592.51kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '城西营业厅',
+  'id' => '313',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:20:54+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.106368s][吞吐率：9.40req/s] [内存消耗：1,590.16kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '69677eb8-e663-4ae9-9420-6049a8bc9615',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:22:04+08:00 ] 127.0.0.1 GET /index/appointment/line
+[ info ] wechat.my/index/appointment/line [运行时间：0.026577s][吞吐率：37.63req/s] [内存消耗：1,648.23kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:22:04+08:00 ] 127.0.0.1 GET /index/appointment/line
+[ info ] wechat.my/index/appointment/line [运行时间：0.025498s][吞吐率：39.22req/s] [内存消耗：1,648.23kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:22:13+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：0.060853s][吞吐率：16.43req/s] [内存消耗：1,592.63kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '江苏省-南京市-建邺区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:22:14+08:00 ] 127.0.0.1 POST /index/appointment/getbussiness.html
+[ info ] wechat.my/index/appointment/getbussiness.html [运行时间：0.185323s][吞吐率：5.40req/s] [内存消耗：1,629.30kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '城西营业厅',
+  'id' => '313',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php:71]
+---------------------------------------------------------------
+[ 2018-03-30T10:29:03+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.145705s][吞吐率：6.86req/s] [内存消耗：1,627.67kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '589f0067-a0d8-4645-bc32-d81db9056eac',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php:71]
+---------------------------------------------------------------
+[ 2018-03-30T10:29:14+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.132144s][吞吐率：7.57req/s] [内存消耗：1,590.61kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a9f78cc7-5153-4a14-b5b0-168711225181',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:29:58+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.132302s][吞吐率：7.56req/s] [内存消耗：1,590.91kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3956ec91-111d-4147-a10f-9d5aa305b5c4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:30:26+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.149048s][吞吐率：6.71req/s] [内存消耗：1,627.63kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8def34e2-0d1f-4067-bd78-71492491e661',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php:70]
+---------------------------------------------------------------
+[ 2018-03-30T10:31:39+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.246477s][吞吐率：4.06req/s] [内存消耗：1,590.28kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f0595f99-a8ad-4b97-ad20-fc39670836c9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:32:06+08:00 ] 127.0.0.1 GET /index/appointment/getBussiness
+[ info ] wechat.my/index/appointment/getBussiness [运行时间：0.599321s][吞吐率：1.67req/s] [内存消耗：1,590.65kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getBussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0fd0fb7f-9dcb-4f2f-89e6-90dee3d84411',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'wechat.my',
+  'cookie' => 'PHPSESSID=pepi02t65237m2k2abqjfr7392',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:36:13+08:00 ] 127.0.0.1 GET /index/appointment/line
+[ info ] wechat.my/index/appointment/line [运行时间：0.028062s][吞吐率：35.64req/s] [内存消耗：1,648.31kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:36:13+08:00 ] 127.0.0.1 GET /index/appointment/line
+[ info ] wechat.my/index/appointment/line [运行时间：0.024222s][吞吐率：41.28req/s] [内存消耗：1,648.31kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:36:23+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：0.173600s][吞吐率：5.76req/s] [内存消耗：1,592.77kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '江苏省-南京市-建邺区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:36:24+08:00 ] 127.0.0.1 POST /index/appointment/getbussiness.html
+[ info ] wechat.my/index/appointment/getbussiness.html [运行时间：0.603051s][吞吐率：1.66req/s] [内存消耗：1,592.98kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '城西营业厅',
+  'id' => '313',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:39:42+08:00 ] 127.0.0.1 POST /index/appointment/getbussiness.html
+[ info ] wechat.my/index/appointment/getbussiness.html [运行时间：0.154870s][吞吐率：6.46req/s] [内存消耗：1,592.98kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '城西营业厅',
+  'id' => '313',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:39:46+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：0.842439s][吞吐率：1.19req/s] [内存消耗：1,592.77kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '江苏省-南京市-玄武区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:39:50+08:00 ] 127.0.0.1 POST /index/appointment/getbussiness.html
+[ info ] wechat.my/index/appointment/getbussiness.html [运行时间：0.140668s][吞吐率：7.11req/s] [内存消耗：1,592.89kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '71',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '太平门营业厅',
+  'id' => '317',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:40:23+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：0.134571s][吞吐率：7.43req/s] [内存消耗：1,592.77kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '江苏省-南京市-江宁区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:53:26+08:00 ] 127.0.0.1 GET /index/appointment/line
+[ info ] wechat.my/index/appointment/line [运行时间：0.063655s][吞吐率：15.71req/s] [内存消耗：1,804.08kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:53:26+08:00 ] 127.0.0.1 GET /index/appointment/line
+[ info ] wechat.my/index/appointment/line [运行时间：0.027844s][吞吐率：35.91req/s] [内存消耗：1,648.36kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:53:37+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：0.228050s][吞吐率：4.39req/s] [内存消耗：1,592.84kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '江苏省-南京市-建邺区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:53:43+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：0.079425s][吞吐率：12.59req/s] [内存消耗：1,592.84kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '江苏省-南京市-栖霞区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:53:48+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：0.059113s][吞吐率：16.92req/s] [内存消耗：1,592.84kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '江苏省-南京市-栖霞区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T10:53:52+08:00 ] 127.0.0.1 POST /index/appointment/getbussiness.html
+[ info ] wechat.my/index/appointment/getbussiness.html [运行时间：0.132566s][吞吐率：7.54req/s] [内存消耗：1,593.03kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '城西营业厅',
+  'id' => '313',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T11:01:38+08:00 ] 127.0.0.1 GET /index/appointment/line
+[ info ] wechat.my/index/appointment/line [运行时间：0.026864s][吞吐率：37.22req/s] [内存消耗：1,648.36kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T11:01:39+08:00 ] 127.0.0.1 GET /index/appointment/line
+[ info ] wechat.my/index/appointment/line [运行时间：0.027279s][吞吐率：36.66req/s] [内存消耗：1,648.36kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'line',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Appointment->line[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T11:01:43+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：0.081879s][吞吐率：12.21req/s] [内存消耗：1,592.84kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '北京市-北京市-东城区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T11:10:26+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：0.136618s][吞吐率：7.32req/s] [内存消耗：1,592.84kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '北京市-北京市-东城区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T11:10:34+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：0.094022s][吞吐率：10.64req/s] [内存消耗：1,592.84kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '江苏省-南京市-建邺区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T11:11:54+08:00 ] 127.0.0.1 POST /index/appointment/getbussiness.html
+[ info ] wechat.my/index/appointment/getbussiness.html [运行时间：0.238831s][吞吐率：4.19req/s] [内存消耗：1,593.03kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '城西营业厅',
+  'id' => '313',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T11:11:59+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：0.112713s][吞吐率：8.87req/s] [内存消耗：1,592.84kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '江苏省-南京市-栖霞区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T11:12:09+08:00 ] 127.0.0.1 POST /index/appointment/getbusinesshall.html
+[ info ] wechat.my/index/appointment/getbusinesshall.html [运行时间：0.172554s][吞吐率：5.80req/s] [内存消耗：1,592.85kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbusinesshall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '93',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '江苏省-南京市-玄武区',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBusinessHall[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T11:12:12+08:00 ] 127.0.0.1 POST /index/appointment/getbussiness.html
+[ info ] wechat.my/index/appointment/getbussiness.html [运行时间：0.163803s][吞吐率：6.10req/s] [内存消耗：1,593.00kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\wechat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'appointment',
+    2 => 'getbussiness',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wechat.my',
+  'connection' => 'keep-alive',
+  'content-length' => '71',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://wechat.my',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1801081 MicroMessenger/6.5.7 Language/zh_CN webview/15223744415897813 webdebugger port/50704',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://wechat.my/index/appointment/line',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=7152930816',
+)
+[ info ] [ PARAM ] array (
+  'post_data' => '太平门营业厅',
+  'id' => '317',
+)
+[ info ] [ RUN ] app\index\controller\Appointment->getBussiness[ D:\phpStudy\WWW\wechat\application\index\controller\Appointment.php ]
+[ info ] [ LOG ] INIT File

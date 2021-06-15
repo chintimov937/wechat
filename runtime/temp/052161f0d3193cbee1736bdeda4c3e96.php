@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html";i:1520414783;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"D:\phpStudy\WWW\wechat\public/../application/index\view\personal.html";i:1520577563;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
@@ -17,7 +17,7 @@
 			</header>
 			<div class="content">
 				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12 info" style="margin-top:42px;"><a onclick="per_name()"><img src="/static/img/smrz.png"/><span>实名认证</span></a></div>
+					<!--<div class="col-md-12 col-sm-12 col-xs-12 info" style="margin-top:42px;"><a onclick="per_name()"><img src="/static/img/smrz.png"/><span>实名认证</span></a></div>-->
 					<div class="col-md-12 col-sm-12 col-xs-12 info"><a href="<?php echo url('Login/changetel'); ?>"><img src="/static/img/ghsjh.png"/><span>更换手机号</span></a></div>
 					<div class="col-md-12 col-sm-12 col-xs-12 info"><a href="<?php echo url('Login/changepassword'); ?>"><img src="/static/img/xgmm.png"/><span>修改密码</span></a></div>
 				</div>
@@ -50,7 +50,12 @@
 					$(".wrap,.qxyy").hide();
 				})
 			});
-			
+            //	个人账户，实名认证
+            function per_name(){
+                window.location.href="<?php echo url('Login/register'); ?>";
+                $(".tab-content").hide();
+                $(".rel-name").show();
+            }
 		</script>
 	</body>
 </html>

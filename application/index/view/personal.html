@@ -16,7 +16,7 @@
 			</header>
 			<div class="content">
 				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12 info" style="margin-top:42px;"><a onclick="per_name()"><img src="__IMG__/smrz.png"/><span>实名认证</span></a></div>
+					<!--<div class="col-md-12 col-sm-12 col-xs-12 info" style="margin-top:42px;"><a onclick="per_name()"><img src="__IMG__/smrz.png"/><span>实名认证</span></a></div>-->
 					<div class="col-md-12 col-sm-12 col-xs-12 info"><a href="{:url('Login/changetel')}"><img src="__IMG__/ghsjh.png"/><span>更换手机号</span></a></div>
 					<div class="col-md-12 col-sm-12 col-xs-12 info"><a href="{:url('Login/changepassword')}"><img src="__IMG__/xgmm.png"/><span>修改密码</span></a></div>
 				</div>
@@ -49,7 +49,12 @@
 					$(".wrap,.qxyy").hide();
 				})
 			});
-			
+            //	个人账户，实名认证
+            function per_name(){
+                window.location.href="{:url('Login/register')}";
+                $(".tab-content").hide();
+                $(".rel-name").show();
+            }
 		</script>
 	</body>
 </html>

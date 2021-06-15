@@ -176,9 +176,29 @@ class Login extends Controller
             'newphone'=>$nphone,
         ];
         $res = getResponse($tran_id,$body);
+        if($res['rc'] == 0){
+            Session::set('tel',$nphone);
+        }
         return json($res);
     }
 
+    /*
+     * 实名认证
+     */
+    public function certification(){
+        if(!session('tel')){
+            $this->redirect('User/personal');
+        }
+        return $this->fetch('smrz');
+    }
+
+    /*
+     * 执行失明认证
+     */
+
+    public function doCertication(){
+
+    }
 
 
     /*

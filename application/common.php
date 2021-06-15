@@ -41,8 +41,8 @@ function curlPost($data){
  * 请求接口
  */
 function getApi($data){
-    $url = 'http://www.sino-device.com.cn:9040/web/orderservlet';
-    //$url = 'http://10.50.111.128:9080/web/orderservlet';
+    //$url = 'http://www.sino-device.com.cn:9040/web/orderservlet';
+    $url = 'http://10.50.111.128:9080/web/orderservlet';
 
     $setting = array(
         'http' => array(
@@ -65,8 +65,8 @@ function getResponse($tran_id,$body){
     $data = [
         'head'=>[
             'tran_id'=>$tran_id,
-            'tran_date'=>date('Ymd'),
-            'tran_time'=>time(),
+            'tran_date'=>(string)date('Ymd'),
+            'tran_time'=>(string)time(),
         ],
         'body'=>$body
     ];

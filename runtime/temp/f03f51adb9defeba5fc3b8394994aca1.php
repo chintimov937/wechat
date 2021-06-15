@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:65:"D:\phpStudy\WWW\wechat\public/../application/index\view\yypd.html";i:1522377656;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 
@@ -6,14 +7,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
 	<title>预约排队</title>
-	<link rel="stylesheet" type="text/css" href="__CSS__/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="__CSS__/layout.css" />
-	<link rel="stylesheet" type="text/css" href="__CSS__/mobiscroll-2.13.2.full.min.css" />
-	<link rel="stylesheet" href="__CSS__/mpicker.css">
-	<script src="__JS__/jquery-2.1.4.min.js"></script>
-	<script src="__JS__/mobiscroll-2.13.2.full.min.js"></script>
-	<script type="text/javascript" src="__JS__/vue.min.js"></script>
-	<script type="text/javascript" src="__JS__/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/mobiscroll-2.13.2.full.min.css" />
+	<link rel="stylesheet" href="/static/css/mpicker.css">
+	<script src="/static/js/jquery-2.1.4.min.js"></script>
+	<script src="/static/js/mobiscroll-2.13.2.full.min.js"></script>
+	<script type="text/javascript" src="/static/js/vue.min.js"></script>
+	<script type="text/javascript" src="/static/js/main.js"></script>
 
 </head>
 
@@ -40,24 +41,24 @@
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12 info line-info" style="margin-top:14px;">
 					<input type="text" name="picktime" id="picktime" readonly="readonly" />
-					<img src="__IMG__/date.png" />
+					<img src="/static/img/date.png" />
 					<span class="font">日期</span><span class="glyphicon glyphicon-chevron-right"></span>
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 info line-info">
 					<input type="text" class="select-value addr" readonly="readonly" name="addr" />
-					<img src="__IMG__/adr.png" />
+					<img src="/static/img/adr.png" />
 					<span class="font">地址</span><span class="glyphicon glyphicon-chevron-right"></span>
 				</div>
 				<!--营业厅-->
 				<div class="col-md-12 col-sm-12 col-xs-12 info line-info" id="yyt_1" style="display: none;">
 					<input type="text" class="select-value1 yyt" readonly="readonly" name="yyt">
-					<img src="__IMG__/yyt.png" />
+					<img src="/static/img/yyt.png" />
 					<span class="font">营业厅</span><span class="glyphicon glyphicon-chevron-right"></span>
 				</div>
 				<!--业务类型-->
 				<div class="col-md-12 col-sm-12 col-xs-12 info line-info intro" id="yyt_2" style="display: none;">
 					<input type="text" class="select-value2 yw" readonly="readonly" name="yw">
-					<img src="__IMG__/ywlx.png" />
+					<img src="/static/img/ywlx.png" />
 					<span class="font">业务类型</span><span class="glyphicon glyphicon-chevron-right"></span>
 				</div>
 				<div class="col-md-10 col-sm-10 col-xs-10 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
@@ -78,10 +79,10 @@
 </div>
 <script>
 </script>
-<script src="__JS__/json.js"></script>
+<script src="/static/js/json.js"></script>
 
-<script src="__JS__/mPicker.js"></script>
-<script src="__JS__/jsonExchange.js"></script>
+<script src="/static/js/mPicker.js"></script>
+<script src="/static/js/jsonExchange.js"></script>
 <script>
     $(function() {
 
@@ -113,7 +114,7 @@
                 //              console.info('选中的value为：', json.values);
                 $("#dizhi").val(json.values);
                 $.ajax({
-                    url: "{:url('index/appointment/getBusinessHall')}",
+                    url: "<?php echo url('index/appointment/getBusinessHall'); ?>",
                     type: 'post',
                     data: {
                         post_data:json.values
@@ -133,7 +134,7 @@
                                 confirm: function(json) {
                                     $('#yingyeting').val(json.values);
                                     $.ajax({
-                                        url: "{:url('index/appointment/getBussiness')}",
+                                        url: "<?php echo url('index/appointment/getBussiness'); ?>",
                                         type: 'post',
                                         data: {
                                             post_data: json.name,

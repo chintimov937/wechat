@@ -74,19 +74,19 @@
                             "code":code
                         },
                         success:function(data){
-                            if(tel == data.tel){
-                                $(".tel-error").show().html("该手机号与当前绑定的手机号相同");
-                                return false;
-                            }else if(data.code != code){
-                                $(".code-error").show().html("验证码填写错误!");
-                                return false;
-                            }else{
+                            if(data.rc == 0){
                                 $(".wrap,.change-ok").show();
                                 setTimeout(function(){
                                     $(".wrap,.change-ok").hide();
-                                    window.location.href="personal.html";
+                                    window.location.href="{:url('User/personal')}";
                                 },2000)
-                            }
+							}else if(data.rc == 1001){
+                                $(".code-error").show().html("验证码填写错误!");
+                                return false;
+							}else{
+                                $(".tel-error").show().html("该手机号已被注册!");
+                                return false;
+							}
                         }
                     });
                 }
